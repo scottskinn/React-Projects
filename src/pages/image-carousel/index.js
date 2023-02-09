@@ -1,10 +1,13 @@
 import { useState } from "react";
 import pic1 from "./images/pic1.jpg";
 import pic2 from "./images/pic2.jpg";
+import pic3 from "./images/pic3.jpg";
+import pic4 from "./images/pic4.jpg";
+import pic5 from "./images/pic5.jpg";
 
 import './styles.css';
 
-const Images = [ pic1, pic2, ];
+const Images = [ pic1, pic2, pic3, pic4, pic5 ];
 
 export default function ImageCarousel() {
   const [current, setCurrent] = useState(0);

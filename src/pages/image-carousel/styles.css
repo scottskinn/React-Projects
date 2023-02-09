@@ -9,10 +9,12 @@ body {
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  margin: 7px;
+  padding: 7px;
+  outline: 3px ridge gray;
 }
 
 .slide {

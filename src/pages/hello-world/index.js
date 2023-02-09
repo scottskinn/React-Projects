@@ -1,13 +1,14 @@
 import { Link, Outlet } from "react-router-dom";
+import './styles.css'
 
 const HelloWorld = () => {
   return (
-    <div>
+    <div className="home">
       <h1>
-        <Link to="/">Home</Link>
+        <Link className="title" to="/">React Projects</Link>
       </h1>
 
-      <nav>
+      <nav className="nav">
         <ul>
           <li>
             <Link to="/image-carousel">Image Carousel</Link>
